@@ -1,0 +1,443 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+  margin-top: 0;
+  margin-bottom: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #333;
+  letter-spacing: -0.5px;
+  margin-top: 18rem;
+  margin-bottom: 5rem;
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+
+  transition: background-color 0.3s;
+}
+
+.btn--full:link,
+.btn--full:visited {
+  background-color: #e67e22;
+  color: #fff;
+}
+
+.btn--full:hover,
+.btn--full:active {
+  background-color: #cf711f;
+}
+
+.btn---full:link,
+.btn---full:visited {
+  background-color: #e67e22;
+  color: #fff;
+}
+
+.btn---full:hover,
+.btn---full:active {
+  background-color: #cf711f;
+}
+
+/*********************************/
+/* HEADER */
+/*********************************/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  width: 100%;
+  height: 9.6rem;
+  padding: 0 4 8rem;
+}
+
+.sticky {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  gap: 3rem;
+  width: 1249px;
+}
+
+.logo {
+  height: 5rem;
+}
+
+.my-account {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.my-account-icon:link,
+.my-account-icon:visited {
+  background-color: #e67e22;
+  color: #fff;
+}
+
+.my-account-icon:hover,
+.my-account-icon:active {
+  color: #cf711f;
+}
+.search-icon:link,
+.search-icon:visited {
+  background-color: #e67e22;
+  color: #fff;
+}
+
+.search-icon:hover,
+.search-icon:active {
+  color: #cf711f;
+}
+
+.btn-my-account-icon {
+  height: 1.8rem;
+  width: 1.8rem;
+}
+
+.btn-search-icon {
+  height: 1.8rem;
+  width: 1.8rem;
+}
+
+/*********************************/
+/* NAVIGATION */
+/**********************************/
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #cf711f;
+}
+
+/*********************************/
+/* HERO SECTION */
+/*********************************/
+
+.section-hero {
+  background-color: #fdf2e9;
+  padding: 0;
+}
+
+.hero {
+  position: relative;
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 4rem;
+  display: flex;
+  gap: 9.6rem;
+  align-items: center;
+}
+
+.sub-section {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  gap: 8rem;
+  font-family: rubik;
+  font-size: 1.2rem;
+  color: gray;
+  background-color: white;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-top: 19.5rem;
+  margin-bottom: 0;
+}
+
+.Destinations-box {
+  line-height: 2;
+  margin-bottom: -0.5rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+  margin-top: -0.8rem;
+  margin-bottom: 0.5rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+  margin-top: -0.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.CheckIn-box {
+  line-height: 1.25;
+}
+
+.Price-Range-box {
+  line-height: 2;
+}
+
+.discover.now {
+  text-align: start;
+}
+
+.btn.btn---full {
+  padding: 15px 15px 15px 15px;
+}
+
+.pagination,
+.Destinations-box,
+.CheckIn-box,
+.Price-Range-box,
+.discover-now {
+  display: inline-block;
+  width: 100%;
+}
+
+/* pagination - hero section */
+
+.page-link:link,
+.page-link:visited {
+  font-size: 16px;
+}
+
+.page-link:hover,
+.page-link:active,
+.page-link.page-link--current {
+  color: #e67e22;
+}
+
+.page-link {
+  text-decoration: none;
+}
+
+.btn-icon-full {
+  display: flex;
+  align-items: center;
+  height: 2rem;
+  width: 2rem;
+}
+
+.btn-icon {
+  margin-right: 1rem;
+}
+
+.btn-outline {
+  margin-right: 1rem;
+}
+
+.btn-icon-outline {
+  display: flex;
+  align-items: center;
+  height: 2rem;
+  width: 2rem;
+}
+
+.dots {
+  margin-right: 1rem;
+}
+
+#destinations {
+  color: #e67e22;
+}
+
+#pricerange {
+  color: #e67e22;
+}
+
+.btn-icon {
+  border: 1px solid #e67e22;
+  height: 20px;
+  width: 20px;
+  background-color: #e67e22;
+  color: #fff;
+  cursor: hand;
+}
+
+.btn-outline {
+  border: 1px solid #aaa7a4;
+  height: 20px;
+  width: 20px;
+  background: none;
+  color: #e67e22;
+  cursor: hand;
+}
+
+.btn-outline:hover {
+  background-color: #e67e22;
+  color: white;
+}
+
+/* background style hero section */
+
+.section-hero {
+  background-image: url(ship.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+/* SECTION-OPTIONS */
+
+.section-options {
+  padding: 12rem 9.6rem 9.6rem 9.6rem;
+}
+
+.grid-container {
+  display: grid;
+  width: 1000px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+.card {
+  background-color: rgb(244, 244, 250);
+  place-content: center;
+  padding: 2rem 3rem 1rem 3rem;
+}
+
+.card.card-3 {
+  background-color: white;
+  border-style: solid;
+  border-color: #f8f7f6;
+}
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: 400;
+  margin-top: 0.5rem;
+}
+
+.sect-image {
+  display: flex;
+  justify-content: center;
+}
+
+/* SECTION-TOP-DESTINATIONS */
+
+.section-top-destinations {
+  padding: 8rem 9.6rem 8rem 9rem;
+}
+
+.grid-container2 {
+  display: grid;
+  width: 1000px;
+  height: 300px;
+  grid-template-columns: 31% 23% 23% 23%;
+  gap: 25px;
+  margin-left: -5rem;
+}
+
+.cuba-city {
+  position: relative;
+  background-image: url(Havana.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 50vh;
+  color: white;
+  font-size: 18px;
+}
+
+.paris {
+  position: relative;
+  background-image: url(eiffel.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 50vh;
+  color: white;
+  font-size: 18px;
+}
+
+.japan {
+  position: relative;
+  background-image: url(japan.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 50vh;
+  color: white;
+  font-size: 18px;
+}
+
+#bottom {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+}
+
+.head-text {
+  font-size: 18px;
+  align-items: center;
+  line-height: 1.3;
+  letter-spacing: -0.5px;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+#sect-text {
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  line-height: 1.5;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+span {
+  color: #cf711f;
+}
