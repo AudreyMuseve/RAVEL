@@ -13,10 +13,13 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
-  margin-top: 0;
-  margin-bottom: 10px;
-  margin-right: 50px;
-  margin-left: 50px;
+  width: 1680px;
+  margin: 0 auto;
+}
+
+.container {
+  width: 1680px;
+  margin: 0 auto;
 }
 
 .heading-primary {
@@ -25,8 +28,7 @@ body {
   line-height: 1.25;
   color: #333;
   letter-spacing: -0.5px;
-  margin-top: 18rem;
-  margin-bottom: 5rem;
+  margin-bottom: 50px;
 }
 
 .btn:link,
@@ -85,11 +87,10 @@ body {
   background-color: white;
   position: fixed;
   z-index: 9999;
-  width: 100%;
+  min-width: 1680px;
   padding-top: 10px;
   padding-bottom: 10px;
   gap: 3rem;
-  width: 1249px;
 }
 
 .logo {
@@ -163,14 +164,15 @@ body {
 /*********************************/
 
 .section-hero {
+  display: flex;
   background-color: #fdf2e9;
-  padding: 0;
+  padding: 70px 0px;
+  align-items: center;
 }
 
 .hero {
   position: relative;
   max-width: 130rem;
-  margin: 0 auto;
   padding: 0 4rem;
   display: flex;
   gap: 9.6rem;
@@ -180,16 +182,23 @@ body {
 .sub-section {
   display: flex;
   align-items: flex-end;
-  justify-content: space-around;
+  justify-content: ;
+  align-items: center;
   gap: 8rem;
   font-family: rubik;
   font-size: 1.2rem;
   color: gray;
   background-color: white;
-  margin-left: 5rem;
-  margin-right: 5rem;
-  margin-top: 19.5rem;
-  margin-bottom: 0;
+  position: absolute;
+  bottom: 500;
+  right: 0;
+  height: 154px;
+  width: 1185px;
+  padding: 70px 135px;
+  bottom: -77px;
+  top: 1043;
+  left: 615px;
+  box-shadow: 0px 10px 30px 5px rgb(250, 245, 245);
 }
 
 .Destinations-box {
@@ -236,6 +245,17 @@ h3 {
 
 /* pagination - hero section */
 
+.pagination {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  top: 995px;
+  width: 495px;
+  height: 77px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
 .page-link:link,
 .page-link:visited {
   font-size: 16px;
@@ -273,9 +293,11 @@ h3 {
   width: 2rem;
 }
 
-.dots {
-  margin-right: 1rem;
-}
+/* #line {
+  color: ;
+  height: 2px;
+  width: 234px;
+} */
 
 #destinations {
   color: #e67e22;
@@ -287,8 +309,8 @@ h3 {
 
 .btn-icon {
   border: 1px solid #e67e22;
-  height: 20px;
-  width: 20px;
+  height: 47px;
+  width: 47px;
   background-color: #e67e22;
   color: #fff;
   cursor: hand;
@@ -296,11 +318,12 @@ h3 {
 
 .btn-outline {
   border: 1px solid #aaa7a4;
-  height: 20px;
-  width: 20px;
+  height: 47px;
+  width: 47px;
   background: none;
   color: #e67e22;
   cursor: hand;
+  margin-left: 15px;
 }
 
 .btn-outline:hover {
@@ -308,10 +331,32 @@ h3 {
   color: white;
 }
 
+.page-link.page-link--current {
+  border-style: hidden;
+  width: 27px;
+  height: 33px;
+  font-size: 24px;
+  margin-left: 10px;
+}
+
+.line {
+  color: gray;
+  width: 234px;
+  height: 2px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.arrow {
+  height: 25px;
+  width: 25px;
+}
+
 /* background style hero section */
 
 .section-hero {
-  background-image: url(ship.jpg);
+  background-image: url(hero-banner\ 2.png);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -329,6 +374,59 @@ h3 {
   width: 1000px;
   grid-template-columns: repeat(4, 1fr);
   gap: 25px;
+}
+
+.card-1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 328px;
+  width: 328px;
+  gap: 50px;
+}
+
+.card-1::after {
+  content: " ";
+  position: absolute;
+  width: 128px;
+  height: 128px;
+  background-image: url(map\ 1.png);
+  background-repeat: no repeat;
+  background-size: auto;
+  background-position: center;
+}
+
+.card-2::after {
+  content: " ";
+  position: absolute;
+  width: 128px;
+  height: 128px;
+  background-image: url(binocular\ 1.png);
+  background-repeat: no repeat;
+  background-size: auto;
+  background-position: center;
+}
+
+.card-3::after {
+  content: " ";
+  position: absolute;
+  width: 128px;
+  height: 128px;
+  background-image: url(backpack\ 1\ .png);
+  background-repeat: no repeat;
+  background-size: auto;
+  background-position: center;
+}
+
+.card-4::after {
+  content: " ";
+  position: absolute;
+  width: 128px;
+  height: 128px;
+  background-image: url(ukelele\ 1.png);
+  background-repeat: no repeat;
+  background-size: auto;
+  background-position: center;
 }
 
 .card {
