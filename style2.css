@@ -240,7 +240,7 @@ h3 {
   position: absolute;
   display: flex;
   flex-direction: row;
-  top: 995px;
+  top: 985px;
   width: 495px;
   height: 77px;
   align-items: center;
@@ -343,7 +343,7 @@ h3 {
 /* background style hero section */
 
 .section-hero {
-  background-image: url(hero-banner\ 2.png);
+  background-image: url(Images/hero-banner\ 2.png);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -379,7 +379,7 @@ h3 {
   position: absolute;
   width: 128px;
   height: 128px;
-  background-image: url(map\ 1.png);
+  background-image: url(Images/map\ 1.png);
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center;
@@ -392,7 +392,7 @@ h3 {
   position: absolute;
   width: 100px;
   height: 100px;
-  background-image: url(binocular\ 1.png);
+  background-image: url(Images/binocular\ 1.png);
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center;
@@ -405,7 +405,7 @@ h3 {
   position: absolute;
   width: 100px;
   height: 100px;
-  background-image: url(backpack\ 1\ .png);
+  background-image: url(Images/backpack\ 1\ .png);
   background-repeat: no repeat;
   background-size: auto;
   background-position: top;
@@ -418,7 +418,7 @@ h3 {
   position: absolute;
   width: 100px;
   height: 100px;
-  background-image: url(ukelele\ 1.png);
+  background-image: url(Images/ukelele\ 1.png);
   background-repeat: no repeat;
   background-size: auto;
   background-position: center;
@@ -531,7 +531,7 @@ h3 {
   position: absolute;
   background: #f7f7f7;
   left: 1114px;
-  top: 1640px;
+  top: 1690px;
   z-index: -1;
 }
 
@@ -579,7 +579,7 @@ span {
 }
 
 .img-box {
-  background-image: url(lighthouse\ 1.png);
+  background-image: url(Images/lighthouse\ 1.png);
   background-repeat: no-repeat;
   width: 570px;
   height: 700px;
@@ -959,7 +959,7 @@ span {
   display: flex;
   width: 1653px;
   height: 550px;
-  background-image: url(Rectangle\ 29.png);
+  background-image: url(Images/Rectangle\ 29.png);
   background: linear-gradient(90deg, #a6f2f2 0%, #ddf181 100%);
   gap: 100px;
 }
@@ -979,7 +979,7 @@ span {
 .bag {
   width: 300px;
   height: 400px;
-  background-image: url(screen.png);
+  background-image: url(Images/screen.png);
   background-repeat: no-repeat;
   background: white;
 }
