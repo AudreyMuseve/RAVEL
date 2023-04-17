@@ -1110,7 +1110,7 @@ span {
 .footer-2 {
   display: flex;
   justify-content: center;
-  position: fixed;
+  /* position: fixed; */
   left: 0;
   bottom: -45px;
   width: 1680px;
@@ -1124,5 +1124,5 @@ span {
 }
 
 .footer-txt-2 {
-  margin-top: 15px;
+  margin-top: 40px;
 }
