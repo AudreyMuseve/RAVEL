@@ -4,18 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
     <title>RAVEL</title>
   </head>
 
-  <section class="desktop---screen">
+
+  <body> 
     <header class="sticky">
       <div class="logo-header.">
         <img
@@ -25,14 +22,12 @@
         />
         <img class="logo-union" alt="Ravel logo" src="Images/Union.png" />
       </div>
-
       <ul class="main-nav-list">
         <li><a class="main-nav-link" href="#">Destination</a></li>
         <li><a class="main-nav-link" href="#">Offer</a></li>
         <li><a class="main-nav-link" href="#">Tour</a></li>
         <li><a class="main-nav-link" href="#">Blog</a></li>
       </ul>
-
       <div class="my-account">
         <img class="user-icon" src="Images/user.png" alt="user" />
         <a class="main-nav-link" href="#">My Account</a>
@@ -51,35 +46,30 @@
       </div>
     </header>
 
-    <section class="hero-bannersearch">
-      <div class="overlap-group7">
-        <div class="pagination">
-          <button class="prev">
-            <img class="arrow" src="Images/arrow left.png" alt="arrow left" />
-          </button>
 
-          <button class="next">
-            <img class="arrow" src="Images/arrow right.png" alt="arrow right" />
-          </button>
-
-          <div class="paginations">
-            <div class="line-1"></div>
-            <div class="number">03</div>
-          </div>
-        </div>
-
-        <div class="overlap-group6">
-          <div class="hero-banner-image"></div>
-          <div class="overlap-group-2">
-            <div class="plan-your-trip notoserif-medium-white-18px">
+    <main>
+    <section class="hero-banner-pagination-search">
+      <div class="hero-banner">
+      <h1 class="its-time-to-explore-the-world">
+        It's Time To<br />
+        Explore The World
+      </h1>
+            <button class="plan-your-trip notoserif-medium-white-18px">
               Plan Your Trip
+            </button>
+          </div>
+          <div class="pagination">
+            <button class="prev">
+              <img class="arrow" src="Images/arrow left.png" alt="arrow left" />
+            </button>
+            <button class="next">
+              <img class="arrow" src="Images/arrow right.png" alt="arrow right" />
+            </button>
+            <div class="line-number">
+              <div class="line-1"></div>
+              <div class="number">03</div>
             </div>
           </div>
-          <h1 class="its-time-to-explore-the-world">
-            It's Time To<br />
-            Explore The World
-          </h1>
-
           <div class="search-box">
             <div class="search-box-item">
               <div
@@ -87,7 +77,7 @@
               >
                 Destinations
               </div>
-              <div class="overlap-group1">
+              <div class="overlap-group-1">
                 <div class="arrow-line">
                   <img
                     class="down-arrow"
@@ -101,13 +91,12 @@
                 </div>
               </div>
             </div>
-
             <div class="search-box-item">
               <div class="check-in productsans-regular-normal-dusty-gray-16px">
                 Check In
               </div>
-              <div class="date">
-                <div class="address notoserif-semi-bold-bittersweet-18px">
+              <div class="overlap-group-2">
+                <div class="date" notoserif-semi-bold-bittersweet-18px">
                   <span>01 Feb, 2021</span>
                 </div>
                 <img
@@ -118,15 +107,14 @@
               </div>
               <div class="line"></div>
             </div>
-
             <div class="search-box-item">
               <div
-                class="surname surname-2 productsans-regular-normal-dusty-gray-16px"
+                class="price-range productsans-regular-normal-dusty-gray-16px"
               >
                 Price Range
               </div>
-              <div class="flex-row-1">
-                <div class="text-5 notoserif-semi-bold-bittersweet-18px">
+              <div class="overlap-group-3">
+                <div class="price notoserif-semi-bold-bittersweet-18px">
                   <span>$500 - $10,000</span>
                 </div>
                 <img
@@ -137,89 +125,64 @@
               </div>
               <div class="line"></div>
             </div>
-
-            <div class="overlap-group-3">
-              <div class="discover-now discover notoserif-medium-white-18px">Discover Now</div>
-              </div>
+              <button class="discover-now discover notoserif-medium-white-18px">Discover Now</button>
             </div>
-          </div>
-        </div>
       </section>
-    </section>
 
 
     <section class="how-it-works">
-        
         <div class="grid-container">
-          
           <div class="card card-1">
-            <h1 class="head head-1">Choose Destination</h1>       
+            <p class="head head-1">Choose Destination</p>       
           <p class="opt-text text-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
           </p>
         </div>
-
         <div class="card card-2">
-          <h1 class="head head-2">Explore The Place</h1>       
+          <p class="head head-2">Explore The Place</p>       
         <p class="opt-text text-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
         </p>
       </div>
-
       <div class="card card-3">
-        <h1 class="head head-3">Start Your Journey</h1>       
+        <p class="head head-3">Start Your Journey</p>       
       <p class="opt-text text-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
       </p>
     </div>
-
     <div class="card card-4">
-      <h1 class="head head-4">Let's Enjoy</h1>       
-    <p class="opt-text text-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      <p class="head head-4">Let's Enjoy</p>       
+    <p class="opt-text text-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
     </p>
   </div>
       </div>
         </section>
         
 
-    <section class="top-destination">
-        
-          <div class="grid-container2">
-            
-            <div class="destinations-description">
-              <div class="head-text">
-                <h1>Top <span>Destinations</span> <br>In The World</h1>
+<section class="top-destination">
+        <div class="title-discover-more">
+              <div class="top-destinations-in">
+                <p>Top <span>Destinations</span> <br>In The World</p>
               </div> 
-
-              <p id="sect-text">Lorem ipsum dolor sit amet sit amet ait amet sit amet 
-              consectetur adipisicing elit consectetur 
-              elit amet sit consectetur adipisicing elit
-              consectetur.</p>
-
-          <a href="#" class="btn btn--full">
-            Discover More
-          </a>
-          </div>
-    
+              <p class="it-is-long-established">It is a long established fact that a reader will be the distracted by the readable content of a page when looking at its layout from it.</p>
+            <button class="discover-more">Discover More</button>
+        </div>
+          <div class="grid-container2">
             <div class="cuba-city">
               <img class="img cuba" src="Images/Cuba-city 1.png" alt="Havana" style="width:330px; height:400px;">
                   <div class="bottom-text">
                     <p>Cuba City</p>
                   </div>
             </div>
-
             <div class="paris-city">
               <img class="img paris" src="Images/Paris-City.png" alt="eiffel" style="width:330px; height:400px;">
                   <div class="bottom-text">
                     <p>Paris City</p>
                   </div>
             </div>
-
             <div class="japan">
               <img class="img japan" src="Images/japan.png" alt="Havana" style="width:316px; height:400px;">
                   <div class="bottom-text---japan">
                     <p>Japan</p>
                   </div>
             </div>
-            </div>
-            </div> 
             </div>
             <div class="Bg"></div>
           </section>
@@ -267,13 +230,13 @@
           <div class="x247-strong-customer-support notoserif-semi-bold-black-24px">24/7 Strong Customer Support</div>
          </div>
         </div>
-      </section>
+      </section> 
 
      
-
-
-
       <section class="choose-your-destination">
+        <!-- <div class="overlap-group9">
+          <div class="ellipse-35"></div>
+        </div> -->
         <p class="head-places">Choose Your Destination</p>
         <div class="container-places">
         <div class="santorini-1">
@@ -281,7 +244,7 @@
           <div class="txt-bx">
           <p class="head-txt-bx">Santorini, Oia Greece</p>
           <div class="smaller-txt-bx">
-          <p class="places-text santorini"><span>$2000</span></p>
+          <p class="price-text santorini"><span>$2000</span></p>
         <div class="rating">
           <div class="stars">
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -297,14 +260,12 @@
       </div>
         </div>
         </div>
-      
-        
         <div class="santorini-2">
           <img src="Images/place-2 1.png" alt="lighthouse" style="width:450; height:535;">
           <div class="txt-bx-2">
             <p class="head-txt-bx">Santorini, Oia Greece</p>
             <div class="smaller-txt-bx">
-            <p class="places-text santorini"><span>$2000</span></p>
+            <p class="price-text santorini"><span>$2000</span></p>
           <div class="rating">
             <div class="stars">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -320,14 +281,12 @@
         </div>
           </div>
         </div>
-        
-    
         <div class="santorini-3">
           <img src="Images/place-3 1 .png" alt="observation point" style="width:450; height:535;">
           <div class="txt-bx">
             <p class="head-txt-bx">Santorini, Oia Greece</p>
             <div class="smaller-txt-bx">
-            <p class="places-text santorini"><span>$2000</span></p>
+            <p class="price-text santorini"><span>$2000</span></p>
           <div class="rating">
             <div class="stars">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -343,30 +302,32 @@
         </div>
           </div>
         </div>
-        <button class="view-all-places" style="width:240px; height:64px; color:white; font-size:18px; background-color:#cf711f;">View All Places</button>
+        <button class="view-all-places" style="width:240px; height:64px;">View All Places</button>
         <img class="vector-3" src="Images/Vector-1-choose-your-destination.png" alt="Vector"/>
         <img class="vector-4" src="Images/Vector-2-choose-your-destination.png" alt="vector" />
       </div>
         </section>
 
-        <img class="ellipse-35" src="Images/Ellipse 35.png" alt="ellipse" />
-
-
-<div class="testimonial">
+  
+    <section class="testimonial">
+<!-- <div class="overlap-group8">
+      <div class="ellipse-36"></div>
+          <div class="ellipse-37"></div>
+        </div> -->
   <p class="what-our-happy-customers-say-about-us">What Our Happy Customers <br> Say About Us</p>
 <div class="flex-row-4">
   <div class="image-container">
-    <div class="image-7">
+    <div class="image-07">
       <img class="mask-group-1" src="Images/Mask Group-img7.png" alt="Mask Group">
   </div>
-<div class="image-5">
+<div class="image-05">
   <img class="mask-group" src="Images/Mask Group-img-5.png" alt="Mak Group"/>
 </div>
 </div>
-<div class="image-8">
-<img class="mask-group-2" src="Images/Mask Group-img-8.png" alt="Mask Group"/>"
+<div class="image-08">
+<img class="mask-group-2" src="Images/Mask Group-img-8.png" alt="Mask Group"/>
 </div> 
-<div class="image-6">
+<div class="image-06">
   <img class="mask-group-3" src="Images/Mask Group-img-6.png" alt="Mask Group"/>
 </div>
 <div class="overlap-group3-3">
@@ -376,22 +337,18 @@
   <p class="jetrips-hotel-is-an">Jetrips Hotel is an excellent choice for anybody for considering hosting their events there. Top levela facilities and excellent staff make for a brilliantad environment within which to operate. The hotel is meticulous in its planning.</p>
 <div class="client">
   <img class="ellipse-27" src="Images/Ellipse 27 (2).png" alt="Ellipse 27"/>
-<div class="flex-col-4 flex-col-5">
-  <div class="md.shamim-hossain notoserif-bold-black-24px">Md Shamim Hossain</div>
+  <div class="flex-col-4 flex-col-5">
+  <div class="md-shamim-hossain notoserif-bold-black-24px">Md Shamim Hossain</div>
   <div class="uiux-designer "productsans-bold-bittersweet-18px">UI/UX Designer</div>
 </div>
 </div>
-
-<div class="group-1">
-  <div class="ellipse-30"></div>
-    <div class="ellipse-31"></div>
-  <div class="ellipse-container">
-    <div class="ellipse-32"></div>
-    <div class="ellipse-34"></div>
-    <div class="ellipse-33"></div>
-  </div>
+<div class="dots-container">
+  <button class="dot dot-1"></button>
+    <button class="dot dot-2"></button> 
+    <button class="dot dot-3"></button> 
+  <button class="dot dot-4"></button>
 </div>
-
+</div>
 <div class="image-01">
   <img class="mask-group-4" src="Images/Mask Group-img-1.png" alt="Mask Group" />
 </div>
@@ -399,90 +356,35 @@
 <div class="image-02">
   <img class="mask-group-5" src="Images/Mask Group-img-2.png" alt="Mask Group" />
 </div>
-  <div class="image-4">
+  <div class="image-03">
     <img class="mask-group" src="Images/Mask Group-img-4.png" alt="Mask Group" />
   </div>
 </div>
 </div>
-</div>
-</div>
-</div>
- -->
+</section>
 
-    <!-- <div class="slideshow-container">
-      <div class="mySlides fade">
-        <div class="numbertext">1 / 4</div>
-        <img src="" style="width:100%">
-        <div class="text">Caption Text</div>
-      </div>
-    
-      <div class="mySlides fade">
-        <div class="numbertext">2 / 4</div>
-        <img src="" style="width:100%">
-        <div class="text">Caption Two</div>
-      </div>
-    
-      <div class="mySlides fade">
-        <div class="numbertext">3 / 4</div>
-        <img src="" style="width:100%">
-        <div class="text">Caption Three</div>
-      </div>
 
-      <div class="mySlides fade">
-        <div class="numbertext">4 / 4</div>
-        <img src="" style="width:100%">
-        <div class="text">Caption Text</div>
-      </div>
-    
-      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    </div>
-    <br>
-    
-    <div style="text-align:center">
-      <button class="dot" onclick="currentSlide(1)"></button>
-      <button class="dot" onclick="currentSlide(2)"></button>
-      <button class="dot" onclick="currentSlide(3)"></button>
-      <button class="dot" onclick="currentSlide(4)"></button>
-    </div>
-</div> -->
-
-    <!-- <div class="avatars-card-2">
-<img class="avatar 5" src="Images/image 10.png" alt="avatar">
-<img class="avatar 6" src="Images/image 9.png" alt="avatar">
-<img class="avatar 7" src="Images/image 11.png" alt="avatar">
-</div>
-</div> -->
-
-    <div class="download-apps">
-  <div class="overlap-group2-1">
-    <div class="overlap-group1-3">
-      <div class="screen-2">
-        <div class="overlap-group-8">
-          <img class="app-1" src="Images/app 1.png" alt="app 1" />
-        </div>
-      </div>
+    <section class="download-apps">
+      <div class="flex-container-1">
+      <div class="screen-2"></div>
       <img class="mask-group-6" src="Images/Mask Group2.png" alt="Mask Group" />
-      <img class="screen-1" src="Images/screen 1.png" alt="screen" />
       <div class="screen"></div>
       <div class="logo">
-        <img class="vector-5" src="Images/Vector-logo.png" alt="Vector" />
-        <img class="union" src="Images/Union.png" alt="Union" />
+        <img class="vector-logo" src="Images/Vector-logo.png" alt="Vector" />
+        <img class="union-logo" src="Images/Union.png" alt="Union" />
       </div>
-      <img class="bagpack-1" src="Images/bagpack 1.png" alt="bagpack" />
-      <img class="plane-2-1" src="Images/plane-2 1.png" alt="plane-2 1" />
+      <img class="bagpack" src="Images/bagpack 1.png" alt="bagpack" />
+      <img class="plane" src="Images/plane-2 1.png" alt="plane-2 1" />
       <img class="google-play" src="Images/google play.png" alt="google play" />
 <img class="apple-store" src="Images/apple store.png" alt="apple store" />
 <div class="download-now-travel-community-apps notoserif-extra-bold-heavy-metal-48px">Download Now Travel<br/>Community Apps</div>
 </div>
-</div>
-</div>
-</div>
+</section>
+</main>
 
 
-    <footer class="footer">  
-
-  <div class="flex-row-5">
+   <footer class="footer">  
+    <div class="flex-container"> 
 <div class="about">
   <div class="logo-1">
     <img class="vector-6" src="Images/Vector-logo.png" alt="Vector" />
@@ -492,70 +394,52 @@
 <div class="contact-info">
   <div class="phone">
     <img class="vector-7" src="Images/Vector (4).png" alt="Vector"/>
-    <p class="text-1-1 productsans-regular-normal-dusty-gray-18px">+0123 456 987, +0123 456 987</p> 
+    <p class="text-phone productsans-regular-normal-dusty-gray-18px">+0123 456 987, +0123 456 987</p> 
   </div>
   <div class="mail">
-    <img class="vector-8" src="Images/Vector (6).png" alt="Vector"/><a href="mailto: mail@yoursite.com" target="_blank"><div class="youremailaddressgmailcom productsans-regular-normal-dusty-gray-18px">yourmailaddress@gmail.com</div><a/>
+    <img class="vector-8" src="Images/Vector (6).png" alt="Vector"/><a class="footer-links" href="mailto: mail@yoursite.com" target="_blank"style="text-decoration:none;">yourmailaddress@gmail.com<a/>
   </div>
     <div class="website">
       <img class="union-2" src="Images/location-pin.png" alt="Union"/>
-<div class="wwwyourwebsitenamecom productsans-regular-normal-dusty-gray-18px">www.yourwebsitename.com</div>
+<a class="footer-links" href="#"style="text-decoration:none;">www.yourwebsitename.com</a>
     </div>
   </div>
   </div>
+<div class="quick-links">
+  <div class="head-links">
+  <p class="text-quick-links notoserif-bold-black-28px">Quick Links</p>
 </div>
-
-
-<div class="links links-2">
-  <div class="quick-links notoserif-bold-black-28px">Quick Links</div>
-  <div class="flex-row-6">
-    <div class="flex-col flex">
-     <div class="rectangle-3"></div>
-     <div class="rectangle-3"></div>
-     <div class="rectangle-36"></div>
-     <div class="rectangle-3"></div>
-     <div class="rectangle-3"></div>
-    </div>
   <ul class="about-us-destination-list productsans-regular-normal-dusty-gray-18px" style="list-style-type:none;"> 
-  <li><a href="#"style="text-decoration:none; color:#555;">About Us</a></li>
-    <li><a href="#"style="text-decoration:none; color:#555;">Destinations</a></li>
-    <li><a href="#"style="text-decoration:none;"><span>Latest Blog</span></a></li>
-    <li><a href="#"style="text-decoration:none; color:#555;">Our Team</a></li>
-    <li><a href="#"style="text-decoration:none; color:#555;">Contact Us</a></li>
+  <li><img class="rectangle-3" src="Images/Rectangle 3.png" /><a class="footer-links" href="#"style="text-decoration:none;">About Us</a></li>
+    <li><img class="rectangle-3" src="Images/Rectangle 3.png" /><a class="footer-links" href="#"style="text-decoration:none;">Destinations</a></li>
+    <li><img class="rectangle-36" src="Images/Rectangle 36.png" /><a class="footer-links" href="#"style="text-decoration:none;"><span>Latest Blog</span></a></li>
+    <li><img class="rectangle-3" src="Images/Rectangle 3.png" /><a class="footer-links" href="#"style="text-decoration:none;">Our Team</a></li>
+    <li><img class="rectangle-3" src="Images/Rectangle 3.png" /><a class="footer-links" href="#"style="text-decoration:none;">Contact Us</a></li>
     </ul>
 </div>
+<div class="support">
+  <div class="head-support">
+  <p class="text-support notoserif-bold-black-28px">Support</p>
 </div>
-
-<div class="links-1 links-2">
-  <div class="support notoserif-bold-black-28px">Support</div>
-  <div class="flex-row-7">
-      <div clas="flex-col flex">
-      <div class="rectangle-3"></div>
-      <div class="rectangle-3"></div>
-      <div class="rectangle-36"></div>
-      <div class="rectangle-3"></div>
-      <div class="rectangle-3"></div>
-      </div>
-
   <ul class="customer-support-pri-list" style="list-style-type:none;"> 
-  <li><a href="#"style="text-decoration:none; color:#555;"">Customer Support</a></li>
-  <li><a href="#"style="text-decoration:none; color:#555;"">Privacy & Policy</a></li>
-  <li><a href="#" style="text-decoration:none; color:#555;">Terms & Conditions</a></li>
-  <li><a href="#"style="text-decoration:none; color:#555;">Forum</a></li>
-  <li><a href="#"style="text-decoration:none; color:#555;">Tour Guid</a></li>
+  <li><img class="rectangle-3" src="Images/Rectangle 3.png" /><a class="footer-links" href="#"style="text-decoration:none;">Customer Support</a></li>
+  <li><img class="rectangle-3" src="Images/Rectangle 3.png" /><a class="footer-links" href="#"style="text-decoration:none;">Privacy & Policy</a></li>
+  <li><img class="rectangle-36" src="Images/Rectangle 36.png" /><a class="footer-links" href="#" style="text-decoration:none;">Terms & Condition</a></li>
+  <li><img class="rectangle-3" src="Images/Rectangle 3.png" /><a class="footer-links" href="#"style="text-decoration:none;">Forum</a></li>
+  <li><img class="rectangle-3" src="Images/Rectangle 3.png" /><a class="footer-links" href="#"style="text-decoration:none;">Tour Guid</a></li>
   </ul>
 </div>
-</div>
-
 <div class="newsletter">
   <div class="newsletter-1 notoserif-bold-black-28px">Newsletter</div>
     <input type="text" id="#" name="#" />
-<a href="#" class="btn btn---full notoserif-medium-white-18px">Subscribe Now</a>
   <button class="subscribe notoserif-medium-white-18px">Subscribe Now</button>
   </div>
-
   <div class="rectangle-40"></div>
+</div>
+<div class="copyright">
   <p class="copyright-2020-rave productsans-regular-normal-white-18px">Copyright @2020 Ravel. Designed By <Span>Md Shamim Hossain</span></p>
-</footer>
   </div>
+</footer> 
+</main>
+</body>
 </html>
